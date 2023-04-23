@@ -16,13 +16,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-Color pmColor = Color.fromARGB(255, 8, 59, 148);
-Color scColor = Color.fromARGB(255, 40, 109, 228);
+Color scColor = Color.fromARGB(255, 8, 59, 148);
+Color pmColor = Color.fromARGB(255, 40, 109, 228);
 
 
 ColorScheme myColorScheme = ColorScheme(
   primary: pmColor,
-  secondary: pmColor,
+  secondary: scColor,
   
   surface: pmColor,
   background: Colors.white,
@@ -31,7 +31,7 @@ ColorScheme myColorScheme = ColorScheme(
   onSecondary: Colors.white12,
   onSurface: pmColor,
   onBackground: pmColor,
-  onError: Colors.red,
+  onError: Colors.white,
   brightness: Brightness.light,
   shadow: pmColor,
 );
